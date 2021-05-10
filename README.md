@@ -11,10 +11,6 @@ The fourth “R”, the Calmar Ratio is defined as (fund annualized return-risk-
 
 Then we can use the four indicators to help us to choose a stock with the best performance. We can calculate the ratios through Python. The codes is in the file named “MFE5210 Assignment3.ipynb”. I choose three stocks as examples and get the results which is in the file named “results.xlsx”. We can see that the stock with stock code 600519 has the largest Sortino ratio and the smallest Daily Return Volatility, and the Maximum Drawdown rate and the Calmar Ratio are also closed to the best one. Thus we should choose the stock 600519 to invest.
 
-rate	600519	000858	002304
-sortino ratio	2.506041621	2.300303316	1.244992923
-return volatility	0.019287362	0.02383274	0.024531232
-maximum drawdown	-0.255290273	-0.295876887	-0.42942738
-calmar ratio	0.119867683	0.118661184	0.045135907![image](https://user-images.githubusercontent.com/78339544/117634990-09b3b780-b1b2-11eb-8e98-4185b6d960ed.png)
+![image](https://user-images.githubusercontent.com/78339544/117634990-09b3b780-b1b2-11eb-8e98-4185b6d960ed.png)
 
 Besides, we can also try to construct a “zero loss portfolio”. If we can find a sector that has a negatively correlated yield curve with the selected sector, then when the stock price we selected goes down, the negatively correlated sector will likely go up, thereby driving the overall investment portfolio to avoid losses.
